@@ -1,0 +1,14 @@
+Here is the information about me:
+Name: Thi Ngoc Diem, Vu
+preferred name: Diem
+Student ID: 014932645
+Major: Software Engineering
+Preferred email address: vuthingocdiem95@gmail.com
+Undergraduate university student status
+I am not a graduating senior. I am a first-year transfer student.
+I am not repeating this class.
+Other CS courses I've completed so far at SJSU: CS146
+Additional information: I don't have any experience on computer/software engineering. I am not confident on my Java skill. I hope my coding skill will be enhanced in this course. Thank you for you support in advance.
+Some specific topics that I am interested in: writing an application on IOS, applying the coding in to real life, trending object oriented designs and their applications, essential private library (classes that are usually used when work as a programmer)
+
+
