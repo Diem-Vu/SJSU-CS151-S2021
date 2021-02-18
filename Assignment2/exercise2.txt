@@ -1,0 +1,28 @@
+Exercise 2:
+List main differences between primitive data type int and class Integer. Be as specific as possible.
+What are advantages of using each one?
+List all specific functionalities that are available when using one and not the other.
+Consult Java API as a resource to find out this information.
+----------------------------------------------------------------------------------------
+
+- A Java both int and Integer are used to store integer type data.
+The major difference between both is type of int is primitive while Integer is of class type.
++ A int is a data type that stores 32 bit signed two's compliment integer.
++ On other hand Integer is a wrapper class which wraps a primitive type int into an object.
+
+- Advantages:
+
++ primitive data type int:
+    - helps in storing integer value into memory.
+    - Lesser memory allocation: takes 32 bits(4 bytes) to store (Integer is an object which takes 128 bits (16 bytes) to store its int value.)
+
++ class Integer:
+    -  helps in converting int into object and to convert an object into int as per requirement.
+    -   Flexibility: is more flexible in storing and manipulating an int data.
+    Since Wrapper classes inherit Object class, they can be used in collections with Object reference or generics.
+    (int only allows binary value of an integer in it.)
+    -	Casting: we can assign string to an object of Integer type using the Integer(String) constructor
+    or by even use parseInt(String) to convert a String literal to an int value.
+    -   Direct Conversion to Other base.: we can directly convert its integer value to other bases such as Binary,
+    Octal or Hexadecimal format using toBinaryString(), toOctalString() or toHexString() respectively.
+    -   Allowed operations: can reverse number or rotate it left or right using reverse(), rotateLeft() and rotateRight() respectively.
